@@ -372,7 +372,7 @@ class BinaryTreeLSTM(nn.Module):
             att_weights_expand = att_weights.unsqueeze(2).expand_as(nodes)
             at = att_weights
             # h: (batch_size, 1, 2 * hidden_dim)
-            ###h = (att_weights_expand * nodes).sum(1)
+            h = (att_weights_expand * nodes).sum(1)
             h = h.unsqueeze(1)
             #print("h_att",h[0][0])
             #exit()
