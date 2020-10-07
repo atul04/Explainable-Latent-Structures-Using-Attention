@@ -1,9 +1,3 @@
-# @Author: Atul Sahay <atul>
-# @Date:   2020-06-09T13:57:57+05:30
-# @Email:  atulsahay01@gmail.com
-# @Last modified by:   atul
-# @Last modified time: 2020-06-09T14:05:18+05:30
-
 
 
 import argparse
