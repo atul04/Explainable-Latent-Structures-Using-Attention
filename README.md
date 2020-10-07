@@ -14,10 +14,9 @@ pip3 install -r Requirements.txt
 | QQP | [qqp](https://www.kaggle.com/c/quora-question-pairs/data) |
 
 # To make the datafiles
+1. > python3 snli/build_vocab.py --data-paths train.jsonl:test.jsonl:valid.jsonl --out Vocab/vocab.pkl
 
-*python3 snli/build_vocab.py --data-paths train.jsonl:test.jsonl:valid.jsonl --out Vocab/vocab.pkl
-*python3 dump_dataset.py --data train.jsonl --vocab Vocab/vocab.pkl --vocab-size 1000000 --max-length 100 --out train.pkl
-
+2. > python3 dump_dataset.py --data train.jsonl --vocab Vocab/vocab.pkl --vocab-size 1000000 --max-length 100 --out train.pkl
 
 ## To Train 
 
