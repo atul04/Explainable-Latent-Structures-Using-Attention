@@ -1,10 +1,9 @@
 ## Unsupervised Learning of Explainable Parse Trees for Improved Generalisation
 
-> [Unsupervised Learning of Explainable Parse Trees for Improved Generalisation](https://arxiv.org/abs/2101.04997)  
+> [Unsupervised Learning of Explainable Parse Trees for Improved Generalisation]()  
 > Atul Sahay, Ayush Maheshwari, Ritesh Kumar, Ganesh Ramakrishnan, Manjesh Hanawal and Kavi Arya
 > To Appear at The International Joint Conference on Neural Networks (__IJCNN__) 2021
 
-# Explainable-Latent-Structures-Using-Attention
 
 ## To Install Requirement Files
 
